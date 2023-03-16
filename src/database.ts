@@ -42,3 +42,5 @@ export const purchase: Purchase[] = [
         totalPrice: products[1].price
     }
 ]
+
+
