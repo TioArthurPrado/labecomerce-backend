@@ -5,10 +5,20 @@ export const users: User[] = [
         id:"001",
         email:"arthur@email.com",
         password:"1234"
-    },
+    }, 
     {
         id:"002",
-        email:"carol@email.com",
+        email:"765carol@email.com",
+        password:"1234567890"
+    },
+    {
+        id:"003",
+        email:"456carol@email.com",
+        password:"1234567890"
+    }, 
+    {
+        id:"004",
+        email:"123carol@email.com",
         password:"1234567890"
     }
 ];

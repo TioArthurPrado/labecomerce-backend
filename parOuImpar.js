@@ -37,31 +37,31 @@
 
 
 
-// const numeroAlatorioEntreUmETres = getRndInteger(1, 3);
-// console.log(numeroAlatorioEntreUmETres);
+const numeroAlatorioEntreUmETres = getRndInteger(1, 3);
+console.log(numeroAlatorioEntreUmETres);
 
-// const escolha = process.argv[2]
-// let escolhaPc = ""
+const escolha = process.argv[2]
+let escolhaPc = ""
 
-// switch (numeroAlatorioEntreUmETres) {
-//     case 1:
-//         escolhaPc = "tesoura"
-//         break;
-//     case 2:
-//         escolhaPc = "pedra"
-//         break;
-//     case 3:
-//         escolhaPc = "papel"
-//         break;
-//     default:
-//         break;
-// }
+switch (numeroAlatorioEntreUmETres) {
+    case 1:
+        escolhaPc = "tesoura"
+        break;
+    case 2:
+        escolhaPc = "pedra"
+        break;
+    case 3:
+        escolhaPc = "papel"
+        break;
+    default:
+        break;
+}
 
-// if((escolha === "tesoura" && escolhaPc === "papel") || (escolha === "pedra"  &&escolhaPc === "tesoura") || (escolha === "papel" && escolhaPc==="pedra")){
-//     console.log(`Você escolheu ${escolha} e o computador escolheu ${escolhaPc}. Você ganhou!`)
-// }else if (escolha === escolhaPc){
-//     console.log(`Você escolheu ${escolha} e o computador escolheu ${escolhaPc}. Deu empate`)
-// }else{
-//     console.log(`Você escolheu ${escolha} e o computador escolheu ${escolhaPc}.
-//     Você perdeu!`)
-// }
+if((escolha === "tesoura" && escolhaPc === "papel") || (escolha === "pedra"  &&escolhaPc === "tesoura") || (escolha === "papel" && escolhaPc==="pedra")){
+    console.log(`Você escolheu ${escolha} e o computador escolheu ${escolhaPc}. Você ganhou!`)
+}else if (escolha === escolhaPc){
+    console.log(`Você escolheu ${escolha} e o computador escolheu ${escolhaPc}. Deu empate`)
+}else{
+    console.log(`Você escolheu ${escolha} e o computador escolheu ${escolhaPc}.
+    Você perdeu!`)
+}
